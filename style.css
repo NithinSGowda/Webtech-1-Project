@@ -3,13 +3,13 @@
 *{
     margin: 0%;
     font-family: 'Montserrat', sans-serif;
-
+    cursor: context-menu;
 }
 .Ee{
 /*background-color: rgba(0, 0, 0, 0.596);*/
 color: rgb(255, 255, 255);
 margin: 10px;
-border-left: 5px solid red;
+border-left: 5px solid rgb(255, 115, 0);
 padding-left: 5%; 
 }
 .heading{
@@ -29,12 +29,12 @@ padding-left: 5%;
 }
 .Ee:hover{
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 0, 0);
-    border-radius:10em;
-    cursor: cell; 
+    background-color: rgb(255, 115, 0);
+    border-radius:.9em;
+    cursor: pointer; 
 }
 .body{
-    background-image: linear-gradient(rgb(134, 134, 134),rgb(65, 65, 65));
+    background-image: linear-gradient(rgb(221, 218, 218),rgb(65, 65, 65));
     height: 70%;
     
     border-radius: 2em; 
@@ -43,20 +43,20 @@ padding-left: 5%;
     float: left;
 }
 .bbody{
-    background-color: rgb(0, 0, 0);
+    background-color: #333;
     padding: 1.5em;
 }
 .EI:hover{
-    background-color:rgb(172, 1, 1);
+    background-color:rgb(255, 115, 0);
     border-radius:50%;
-    border: 5px solid red; 
+    border: 2px solid rgb(255, 115, 0); 
 }
 .foot{
     position: fixed;
     bottom: 0px;
     background-color: black;
     text-align: center;
-    color: rgb(202, 202, 202);
+    color: rgb(255, 217, 0);
     width: 100%;
     padding: 1em;   
 }
@@ -65,11 +65,12 @@ padding-left: 5%;
     padding-left: 100px; 
 }
 ul{
-    
     text-align: center;
     margin: 0em;
-    background-color: rgba(115, 255, 0, 0.89);
+    background-color: rgba(0, 0, 0, 0.726);
     font-size: 1.2em;
+    border-bottom: 5px solid rgb(255, 115, 0);
+    color: white;  
 }
 li:hover{
     background-color: rgb(255, 115, 0);
@@ -87,5 +88,5 @@ li{
 }
 
 .list{
-    display: inline;    
+    display: inline;  
 }
