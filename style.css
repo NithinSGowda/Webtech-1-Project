@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 *{
     margin: 0%;
-    
+    font-family: 'Montserrat', sans-serif;
+
 }
-.E{
+.Ee{
 /*background-color: rgba(0, 0, 0, 0.596);*/
-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
 margin: 10px;
 border-left: 5px solid red;
 padding-left: 5%; 
@@ -13,22 +16,25 @@ padding-left: 5%;
     font-size: 2em;
     font-weight: bold;
 }
+.tagline{
+    color: azure;
+}
 .Eb{
-    background-color: rgb(51, 255, 0);
+    background-color: rgb(39, 39, 39);
     margin: 0;
     padding-bottom: 50px;
     padding-left:20px;
     padding-top: 25px;
-    padding-right: 60%; 
+    padding-right: 45%; 
 }
-.E:hover{
+.Ee:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 0, 0);
     border-radius:10em;
     cursor: cell; 
 }
 .body{
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(182, 182, 182));
+    background-image: linear-gradient(rgb(134, 134, 134),rgb(65, 65, 65));
     height: 70%;
     
     border-radius: 2em; 
@@ -37,7 +43,7 @@ padding-left: 5%;
     float: left;
 }
 .bbody{
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(0, 0, 0);
     padding: 1.5em;
 }
 .EI:hover{
@@ -58,4 +64,28 @@ padding-left: 5%;
 .top-text{
     padding-left: 100px; 
 }
+ul{
+    
+    text-align: center;
+    margin: 0em;
+    background-color: rgba(115, 255, 0, 0.89);
+    font-size: 1.2em;
+}
+li:hover{
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+    
+}
+li{
+    display: inline-block;
+    margin: 0em;
+    padding: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
 
+.list{
+    display: inline;    
+}
