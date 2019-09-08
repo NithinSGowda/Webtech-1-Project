@@ -1,5 +1,6 @@
 *{
     margin: 0%;
+    
 }
 .E{
 /*background-color: rgba(0, 0, 0, 0.596);*/
@@ -18,7 +19,7 @@ padding-left: 5%;
     padding-bottom: 50px;
     padding-left:20px;
     padding-top: 25px;
-    padding-right: 50%; 
+    padding-right: 60%; 
 }
 .E:hover{
     color: rgb(0, 0, 0);
@@ -27,16 +28,34 @@ padding-left: 5%;
     cursor: cell; 
 }
 .body{
-    background-color: rgb(88, 88, 88);
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(182, 182, 182));
+    height: 70%;
+    
+    border-radius: 2em; 
 }
-
+.logo{
+    float: left;
+}
+.bbody{
+    background-color: rgb(88, 88, 88);
+    padding: 1.5em;
+}
+.EI:hover{
+    background-color:rgb(172, 1, 1);
+    border-radius:50%;
+    border: 5px solid red; 
+}
 .foot{
     position: fixed;
     bottom: 0px;
     background-color: black;
     text-align: center;
-    color: white;
+    color: rgb(202, 202, 202);
     width: 100%;
     padding: 1em;   
+}
+
+.top-text{
+    padding-left: 100px; 
 }
 
