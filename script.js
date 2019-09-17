@@ -6,6 +6,12 @@ element.addEventListener("click",function(){
     this.innerHTML=editedText;
     });}
 
+const backgrounds=document.querySelectorAll('.Eb');
 
+for(backg of backgrounds){
+    element.addEventListener("click",function(){
+        this.
+    })
+}
 
 
