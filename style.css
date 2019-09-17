@@ -11,6 +11,10 @@ color: rgb(255, 255, 255);
 margin: 10px;
 border-left: 5px solid rgb(255, 115, 0);
 padding-left: 30px; 
+transition: 0.8s;
+}
+.top-text{
+    padding-left: 100px; 
 }
 .heading{
     font-size: 2em;
@@ -30,9 +34,13 @@ padding-left: 30px;
 }
 .Ee:hover{
     
-    background-color: rgb(255, 115, 0);
+    background-color: rgba(255, 115, 0, 0.808);
     border-radius:.9em;
     cursor: pointer; 
+    transform: scale(1.05);
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 0% 50% 0% 50%;
 }
 .body{
     background-image: linear-gradient(rgb(221, 218, 218),rgb(65, 65, 65));
@@ -66,9 +74,8 @@ padding-left: 30px;
     border-top:2px solid rgb(255, 115, 0);
 }
 
-.top-text{
-    padding-left: 100px; 
-}
+
+
 ul{
     text-align: center;
     margin: 0em;
@@ -80,6 +87,7 @@ ul{
 li:hover{
     background-color: rgb(255, 115, 0);
     cursor: pointer;
+    transform: scale(1.2);
     
 }
 li{
@@ -88,10 +96,16 @@ li{
     padding: 1em;
     padding-left: 5%;
     padding-right: 5%;
-    
+    transition: 0.8s;
     
 }
 
 .list{
     display: inline;  
+}
+.E{
+    transition: 0.8s;
+}
+.E:hover{
+       
 }
