@@ -2,37 +2,42 @@
 *{
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
+	cursor: ;
 }
 .blue{
-	background-color: #0C32FF;
+	background-image: linear-gradient(rgb(142, 142, 255),rgb(0, 0, 255));
 	color: white;
-	min-height: 70%;
+	min-height: 80%;
+
 }
 .a{
-	padding: 1em 0.5em 1em 1em;
-	text-align: center;
+	padding: 1em 0.5em 25px 1em;
 	border-bottom: 2px solid white; 
-
 }
-.a1{
-	padding-right: 35%; /*cahnge to 25%*/
-}
-.a2{
-	padding-right: 10%;
-}
-.a3{
-	padding-left: 15%; 
-	padding-right: 1em;
+.a1,.a2,.a3{
+	padding: 0 1em 0 1em;
 }
 
-.Download{
-	background-color: white;
+.a4{
+	float: right;
+}
+.a5{
+	margin-right: 1em; 
+	background-color: rgba(255, 253, 253, 0.979);
 	border-radius: 5px;
 	border: none;
-	padding: 0.8em 4em 0.8em 4em; 
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
+}
+.Download{
+	background-color: rgba(255, 253, 253, 0.979);
+	border-radius: 5px;
+	border: none;
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
 	/*transition: 0.2s;*/
 }
-.Download:hover{
+.Download:hover, .a5:hover{
 	background-color: rgb(255, 208, 0);
 	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 	transform: scale(1.05);
@@ -41,11 +46,67 @@
 	padding: 1em 0em 1em 5%;
 }
 .title{
-	color: rgb(255, 238, 0); 
-	font-weight: bold;
-	font-size: 2em;
-	vertical-align: 130%;
+	color:rgb(255, 255, 255);
+	font-weight: 1000;
+	font-size: 1.8em;
+	vertical-align: 110%;
+	text-shadow:2px 2px 2px rgb(148, 148, 148); 
 	padding-left: 1em;
 }
 
+.nav{
+	display: inline;
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+	padding-right: 5em;
+	vertical-align: 50%;
+	padding-top: 0.1em;
+}
+li{
+	display: block;
+	text-decoration: none;
+	float: right;
+	padding: 2em;
+	font-size: 0.9em;
+	
+}
+.head2{
+	padding-left: 11.2%;
+	padding-top: 5%;	
+}
+.b1{
+	font-size: 2.5em;
+	line-height: 55px;
+}
+.b2{
+	color: yellow;
+}
 
+.b4{
+	background-color: rgba(255, 253, 253, 0.979);
+	border-radius: 5px;
+	border: none;
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
+	border: 1px solid white;
+	margin-right: 7px; 
+	/*transition: 0.2s;*/
+}
+.b5{
+	background-color: rgba(255, 253, 253, 0);
+	border-radius: 5px;
+	color: white;
+	border: 1px solid white;
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
+	/*transition: 0.2s;*/
+}
+
+.b4:hover{
+	background-color: rgba(231, 229, 229, 0.986);
+}
+.b5:hover{
+	background-color: white;
+	color: black;
+}
