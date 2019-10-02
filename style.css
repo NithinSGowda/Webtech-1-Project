@@ -1,116 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
 *{
-    margin: 0%;
-    font-family: 'Montserrat', sans-serif;
-    cursor: context-menu;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
 }
-.Ee{
-/*background-color: rgba(0, 0, 0, 0.596);*/
-color: rgb(255, 255, 255);
-margin: 10px;
-border-left: 5px solid rgb(255, 115, 0);
-padding-left: 30px; 
-transition: 0.8s;
+.blue{
+	background-color: #0C32FF;
+	color: white;
+	min-height: 70%;
 }
-.top-text{
-    padding-left: 100px; 
+.a{
+	padding: 1em 0.5em 1em 1em;
+	text-align: center;
+	border-bottom: 2px solid white; 
+
 }
-.heading{
-    font-size: 2em;
-    font-weight: bold;
-    width: 350px;
+.a1{
+	padding-right: 35%; /*cahnge to 25%*/
 }
-.tagline{
-    color: azure;
-    width: 230px;
+.a2{
+	padding-right: 10%;
 }
-.Eb{
-    background-color: rgb(39, 39, 39);
-    margin: 0;
-    padding-bottom: 50px;
-    padding-left:20px;
-    padding-top: 25px;
+.a3{
+	padding-left: 15%; 
+	padding-right: 1em;
 }
-.Ee:hover{
-    
-    background-color: rgba(255, 115, 0, 0.808);
-    border-radius:.9em;
-    cursor: pointer; 
-    transform: scale(1.05);
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    border-radius: 0% 50% 0% 50%;
+
+.Download{
+	background-color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 0.8em 4em 0.8em 4em; 
+	/*transition: 0.2s;*/
 }
-.body{
-    background-image: linear-gradient(rgb(221, 218, 218),rgb(65, 65, 65));
-    height: 70%;
-    border-left:2px solid rgb(255, 115, 0);
-    border-right:2px solid rgb(255, 115, 0);
-    border-radius: 2em; 
+.Download:hover{
+	background-color: rgb(255, 208, 0);
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.05);
 }
 .logo{
-    float: left;
+	padding: 1em 0em 1em 5%;
 }
-.bbody{
-    background-color: #333;
-    padding: 1.5em;
-    padding-bottom: 5em;
-}
-.EI:hover{
-    background-color:rgb(255, 115, 0);
-    border-radius:50%;
-    border: 2px solid rgb(255, 115, 0); 
-
-}
-.foot{
-    position: fixed;
-    bottom: 0px;
-    background-color: black;
-    text-align: center;
-    color: rgb(255, 140, 46);
-    width: 100%;
-    padding: 1em;   
-    border-top:2px solid rgb(255, 115, 0);
+.title{
+	color: rgb(255, 238, 0); 
+	font-weight: bold;
+	font-size: 2em;
+	vertical-align: 130%;
+	padding-left: 1em;
 }
 
-
-
-ul{
-    text-align: center;
-    margin: 0em;
-    background-color: rgba(0, 0, 0, 0.726);
-    font-size: 1.2em;
-    border-bottom: 5px solid rgb(255, 115, 0);
-    color: white;  
-}
-li:hover{
-    background-color: rgb(255, 115, 0);
-    cursor: pointer;
-    transform: scale(1.2);
-    
-}
-li{
-    display: inline-block;
-    margin: 0em;
-    padding: 1em;
-    padding-left: 5%;
-    padding-right: 5%;
-    transition: 0.8s;
-    
-}
-
-.list{
-    display: inline;  
-}
-.E{
-    transition: 0.8s;
-}
-
-.color-picker{
-    display: none;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
 
