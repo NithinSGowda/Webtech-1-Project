@@ -109,5 +109,31 @@ li{
 	background-color: white;
 	color: black;
 }
-
-bjcbjs
+.head3{
+	position: absolute;
+	right: 20%;
+	top: 30%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+}
+.ci1{
+	border: none;
+	border-radius: 10px 10px 0 0;
+}
+.c11{
+	padding: 8px 0 8px 10px;
+}
+.follow{
+	margin-left: 4.5em; 
+	font-size: 0.7em;
+	background-color: #2E2EFF;
+	border: none;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 7px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
