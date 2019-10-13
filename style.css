@@ -7,6 +7,7 @@
 	background-image: linear-gradient(50deg,#176bfd 0,#000ed4 100%);
 	color: white;
 	min-height: 80%;
+	position: relative;
 
 }
 .a{
@@ -77,6 +78,7 @@ li{
 .b1{
 	font-size: 3em;
 	line-height: 60px;
+	word-break: break-all;
 }
 .b2{
 	color: yellow;
@@ -113,21 +115,7 @@ li{
 	background-color: white;
 	color: black;
 }
-.head3{
-	position: absolute;
-	right: 20%;
-	top: 30%;
-	background-color: white;
-	color: black;
-	border-radius: 10px;
-}
-.ci1{
-	border: none;
-	border-radius: 10px 10px 0 0;
-}
-.c11{
-	padding: 8px 0 8px 10px;
-}
+
 .follow{
 	margin-left: 4.5em; 
 	font-size: 0.7em;
@@ -140,4 +128,32 @@ li{
 a{
 	text-decoration: none;
 	color: white;
+}
+
+.picker1{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.picker2{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+input[type="color"]{
+	width: 2rem;
+	height: 1.5rem;
+	background-color: black;
+	border: 3px white;
+}
+.change{
+	position: absolute;
+	bottom: 10px;
+	right: 45%;
+	background-color: rgba(255, 253, 253, 0);
+	border-radius: 5px;
+	color: white;
+	border: 1px solid white;
+	padding: 5px 10px 5px 10px;
 }
