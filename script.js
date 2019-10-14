@@ -5,8 +5,6 @@ element.addEventListener("click",function(){
     const editedText=prompt("Enter the Heading");
     this.innerHTML=editedText;
 });}
-
-
 const chngbtn = document.querySelector('.change');
 const blueArea = document.querySelector('.blue');
 function changeColor(){
