@@ -201,3 +201,46 @@ input[type="color"]{
 	font-size: .8em;
 	margin-bottom: 4em;
 }
+.hrline{
+	min-height: 0.5px;
+	background-image: linear-gradient(90deg,rgba(255, 255, 255, 0),rgb(155, 155, 155),rgba(255, 255, 255, 0));
+	margin-bottom: 4em;
+	margin-top: 4em;
+	border: 0px solid black;
+}
+.d{
+	padding: 0 20% 0 20%;
+}
+.d11{
+	background-color: blue;
+	border-radius: 3em;
+	color: white;
+	padding: 2px 1em 4px 1em ;
+}
+.d12{
+	margin-top: 2em;
+	font-size: 1.1em;
+	margin-bottom: 2em;
+}
+.d22{
+	padding: 2em;
+	border-radius: 5px;
+	box-shadow:  0 1px 2000px 0 rgba(129, 129, 129, 0.2), 0 20px 20px 0 rgba(156, 156, 156, 0.19);
+	font-size: 0.9em;
+	max-width: 170px;
+	max-height: 253px;
+	position: relative;
+}
+.d22:hover{
+	box-shadow:  0 2px 200px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	top: -0.7em;
+}
+.dd1{
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.d21{
+	margin-bottom: 80px;
+	
+}
