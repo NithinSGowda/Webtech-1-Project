@@ -165,6 +165,7 @@ input[type="color"]{
 	background-color: rgba(0, 0, 0, 0.822);
 	top: 0;
 	/*display: none;*/
+	display: none;
 	
 }
 .inpi{
@@ -178,4 +179,25 @@ input[type="color"]{
 }
 .inpb{
 	margin: 0.75em;
+}
+
+.c,.c2,.c31,.c32{
+	display: flex;
+	justify-content: center;
+	padding-top: 1em;
+	text-align: center;
+}
+.c1{
+	padding: 1.5em;
+	background-color: white;
+	box-shadow:  0 2px 200px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+.c31{
+	font-size: 2em;
+}
+.c32{
+	margin-top: 1em;
+	font-size: .8em;
+	margin-bottom: 4em;
 }
