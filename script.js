@@ -29,7 +29,7 @@ function dl(){
 }
 function download(e){
     document.dispatchEvent(new KeyboardEvent('keypress',{key:'s',ctrlKey:true}))
-    console.log"Done")
+    console.log("Done")
 }
 
 
