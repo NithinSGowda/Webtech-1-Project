@@ -13,3 +13,18 @@ function changeColor(){
     blueArea.style.backgroundImage = 'linear-gradient(50deg,' + clr1 + ', ' + clr2 + ' 100%)';
 }
 
+function dl(){
+    document.body.style.backgroundColor = "Black";
+    document.body.style.color = "white";
+    document.querySelectorAll('.c1')[0].style.backgroundColor='Black';
+    document.querySelectorAll('.c1')[0].style.border='1px solid white';
+
+    document.querySelectorAll('.c1')[1].style.backgroundColor='Black';
+    document.querySelectorAll('.c1')[1].style.border='1px solid white';
+
+    document.querySelectorAll('.c1')[2].style.backgroundColor='Black';
+    document.querySelectorAll('.c1')[2].style.border='1px solid white';
+
+    document.querySelector('.blue').style.backgroundImage='linear-gradient(50deg,#0d0d0d 0,#000000 100%)'
+}
+

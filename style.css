@@ -167,6 +167,7 @@ input[type="color"]{
 	/*display: none;*/
 	display: none;
 	
+	
 }
 .inpi{
 	border: 3px solid rgb(47, 0, 255);
@@ -190,7 +191,7 @@ input[type="color"]{
 .c1{
 	padding: 1.5em;
 	background-color: white;
-	box-shadow:  0 2px 200px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow:  0 2px 200px 0 rgba(56, 55, 55, 0.2), 0 20px 20px 0 rgba(87, 86, 86, 0.19);
 	border-radius: 5px;
 }
 .c31{
@@ -230,6 +231,7 @@ input[type="color"]{
 	max-width: 170px;
 	max-height: 253px;
 	position: relative;
+	color: rgb(59, 59, 59);
 }
 .d22:hover{
 	box-shadow:  0 2px 200px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
@@ -240,7 +242,29 @@ input[type="color"]{
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
+.dd2{
+	color: grey;
+}
 .d21{
 	margin-bottom: 80px;
 	
+}
+
+.inpl{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.822);
+	top: 0;
+	/*display: none;*/
+	display: none;
+}
+.dark{
+	min-width: 45px;
+	min-height: 45px;
+	background-color: black;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 10%;
+	left: 2%;
 }
