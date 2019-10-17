@@ -28,9 +28,8 @@ function dl(){
     document.querySelector('.blue').style.backgroundImage='linear-gradient(50deg,#0d0d0d 0,#000000 100%)'
 }
 function download(e){
-    alert("Done")
     document.dispatchEvent(new KeyboardEvent('keypress',{key:'s',ctrlKey:true}))
-    alert("Done")
+    console.log"Done")
 }
 
 
