@@ -268,3 +268,26 @@ input[type="color"]{
 	bottom: 10%;
 	left: 2%;
 }
+.f{
+	display: flex;
+	justify-content: center;
+}
+.f2{
+	padding-top: 2em;
+	padding-left: 3em;
+}
+.f21{
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+.f22{
+	color: grey;
+	line-height: 2em;
+	padding-bottom: 1em;
+}
+
+.f23{
+	color: rgb(255, 187, 0);
+	border-bottom: 2px dotted rgb(255, 187, 0);
+}
