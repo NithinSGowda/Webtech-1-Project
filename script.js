@@ -86,3 +86,25 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+function nxt1(){
+  butn=document.querySelector('.tt1')
+  butn.style.display='none';
+  butn=document.querySelector('.tt2')
+  butn.style.display='block';
+  console.log("Done")
+}
+function nxt2(){
+  butn=document.querySelector('.tt2')
+  butn.style.display='none';
+  butn=document.querySelector('.tt3')
+  butn.style.display='block';
+  console.log("Done")
+}
+function nxt3(){
+  butn=document.querySelector('.tt3')
+  butn.style.display='none';
+  butn=document.querySelector('.tutorial')
+  butn.style.display='none';
+  console.log("Done")
+}

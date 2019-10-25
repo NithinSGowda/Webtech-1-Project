@@ -323,3 +323,64 @@ input[type="color"]{
 	font-size:1em;
 	border-radius: 10px
 }
+
+.tutorial{
+	min-width: 100%;
+	min-height: 100%;
+	background-color: rgba(0, 0, 0, 0.616);
+	position: fixed;
+	top: 0;
+	color: white;
+	font-size: 2.5em;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	border: 2px solid rgb(255, 251, 0);
+}
+
+.tt1b{
+	position: fixed;
+	top: 30%;
+	left: 35%;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	border: 2px solid rgb(255, 251, 0);
+}
+
+.tt2b{
+	position: fixed;
+	top: 42.5%;
+	left: 37%;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	border: 2px solid rgb(255, 251, 0);
+}
+
+.tt3b{
+	position: fixed;
+	top: 65%;
+	left: 27%;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	border: 2px solid rgb(255, 251, 0);
+}
+
+.next{
+	position: fixed;
+	bottom: 3%;
+	right: 2%;
+	background-color: yellow;
+	color: black;
+	font-size: 0.7em;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+}
+.tt2{
+	display: none;
+}
+.tt3{
+	display: none;
+}
+.next:hover{
+	background-color: rgb(255, 187, 0);
+	cursor: grab;
+}
