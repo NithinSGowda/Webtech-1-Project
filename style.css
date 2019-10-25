@@ -325,8 +325,8 @@ input[type="color"]{
 }
 
 .tutorial{
-	min-width: 100%;
-	min-height: 100%;
+	min-width: 95.3%;
+	min-height: 97%;
 	background-color: rgba(0, 0, 0, 0.616);
 	position: fixed;
 	top: 0;
@@ -334,7 +334,7 @@ input[type="color"]{
 	font-size: 2.5em;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
-	border: 2px solid rgb(255, 251, 0);
+	border: 5px solid rgb(255, 251, 0);
 }
 
 .tt1b{
