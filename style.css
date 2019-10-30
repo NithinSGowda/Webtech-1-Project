@@ -198,9 +198,9 @@ input[type="color"]{
 	font-size: 2em;
 }
 .c32{
-	margin-top: 1em;
+	padding-top: 1em;
 	font-size: .8em;
-	margin-bottom: 4em;
+	padding-bottom: 4em;
 }
 .hrline{
 	min-height: 0.5px;
@@ -345,9 +345,7 @@ input[type="color"]{
 	animation : tutor 300 0.5 0  right fade;
 }
 
-@tutor{
 
-}
 
 .tt2b{
 	position: fixed;
