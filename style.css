@@ -325,16 +325,15 @@ input[type="color"]{
 }
 
 .tutorial{
-	min-width: 95.3%;
-	min-height: 97%;
+	min-width: 100%;
+	min-height: 100%;
 	background-color: rgba(0, 0, 0, 0.616);
 	position: fixed;
 	top: 0;
 	color: white;
-	font-size: 2.5em;
+	font-size: 2em;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
-	border: 5px solid rgb(255, 251, 0);
 }
 
 .tt1b{
@@ -343,7 +342,11 @@ input[type="color"]{
 	left: 35%;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
-	border: 2px solid rgb(255, 251, 0);
+	animation : tutor 300 0.5 0  right fade;
+}
+
+@tutor{
+
 }
 
 .tt2b{
@@ -352,7 +355,7 @@ input[type="color"]{
 	left: 37%;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
-	border: 2px solid rgb(255, 251, 0);
+	//border: 2px solid rgb(255, 251, 0);
 }
 
 .tt3b{
@@ -361,7 +364,7 @@ input[type="color"]{
 	left: 27%;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
-	border: 2px solid rgb(255, 251, 0);
+	//border: 2px solid rgb(255, 251, 0);
 }
 
 .next{
