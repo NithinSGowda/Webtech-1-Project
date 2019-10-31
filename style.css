@@ -342,24 +342,52 @@ input[type="color"]{
 	left: 35%;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
-	animation : tutor 300 0.5 0  right fade;
 }
 
+.arrow{
+	animation-name: tutor;
+	animation-duration: 300ms;
+	animation-iteration-count: 3000;
+}
+@keyframes tutor {
+	from {
+		color: red;
+		transform: scale(1);
+	}
+	to {
+		color: rgb(229, 255, 0);
+		transform: scale(1.1);
 
+	}
+  }
 
 .tt2b{
 	position: fixed;
 	top: 42.5%;
-	left: 37%;
+	left: 37.5%;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
 	//border: 2px solid rgb(255, 251, 0);
 }
 
+.tt3a{
+	position: fixed;
+	font-size: 1.6em;
+}
+
+.tt3a1{
+	top: 73.8%;
+	left: 60px;
+}
+
+.tt3a2{
+	top: 73.8%;
+	right: 60px;
+}
 .tt3b{
 	position: fixed;
-	top: 65%;
-	left: 27%;
+	top: 68%;
+	left: 29.5%;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
 	//border: 2px solid rgb(255, 251, 0);
