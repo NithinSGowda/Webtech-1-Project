@@ -271,6 +271,7 @@ input[type="color"]{
 .f{
 	display: flex;
 	justify-content: center;
+	min-height: 35%;
 }
 .f2{
 	padding-top: 2em;
@@ -334,6 +335,7 @@ input[type="color"]{
 	font-size: 2em;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
+	display: none;
 }
 
 .tt1b{
@@ -342,6 +344,7 @@ input[type="color"]{
 	left: 35%;
 	padding: 10px 1em 10px 1em;
 	border-radius: 7px;
+	
 }
 
 .arrow{
@@ -412,4 +415,44 @@ input[type="color"]{
 .next:hover{
 	background-color: rgb(255, 187, 0);
 	cursor: grab;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	min-height: 30%;
+		
+}
+
+.foottable{
+	border-top : 0.5px solid rgb(124, 124, 124);
+	padding-top: 70px;
+	justify-content: center;
+	min-width: 70%;
+	padding-left: 20%;
+	padding-bottom: 70px;
+
+}
+.foottable th{
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.foottable td{
+	color: grey;
+	padding-top: 15px;
+	line-height: 1.5em;
+	min-width: 200px;
+}
+
+.credits{
+	color: rgb(255, 255, 255);
+	border-top : 0.5px solid rgb(124, 124, 124);
+
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	background-color: black;
+
 }
