@@ -3,13 +3,14 @@
 		<title>GUI Web Builder</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<link rel="icon" href="logo.png">
+		<link rel="icon" href="Images/ezgif.com-gif-maker.png">
 	</head>
 	<body>
 		<div class="blue">
+			<div class="colorChanger">
 			<input type="color" class="picker1" value="#176bfd" >
 			<button  class="change" onclick="changeColor()">Change Color</button>
-			<input type="color" class="picker2" value="#000ed4">
+			<input type="color" class="picker2" value="#000ed4"></div>
 		<div class="a">
 			<span class="a1 et">
 				PES University
@@ -20,13 +21,12 @@
 			<span class="a3 et">
 				Department of CSE
 			</span>
-			<span class="a4">
-				<button class="a5">Support</button>
-			<button class="Download a4" onclick="download()">Download</button>
+				<a href="mailto:oneandonlytobe@gmail.com" class="a5"><img src="Images/question-circle-solid.svg" width="35px"></a>
+			<div class="Download a4" onclick="download()"><img src="Images/download-solid.svg" width="30px"></div>
 		</span>
 		</div>
 		<div class="head">
-			<img src="logo.png" class="logo" width="100px">
+			<img src="Images/pencil-alt-solid.svg" class="logo et" width="40px">
 			<span class="title et">GUI Web Builder</span> 
 			<span class="nav">
 				<ul>
@@ -128,6 +128,35 @@
 		
 		</div>
 		<div class="credits">&copyDeveloped by GUI Web Developer</div>
+		
+		<div class="login-button">
+				<div class="wrapper">
+						<h2>Sign Up</h2>
+						<p>Please fill this form to create an account.</p>
+						<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+							<div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+								<label>Username</label>
+								<input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+								<span class="help-block"><?php echo $username_err; ?></span>
+							</div>    
+							<div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+								<label>Password</label>
+								<input type="password" name="password" class="form-control" value="<?php echo $password; ?>">
+								<span class="help-block"><?php echo $password_err; ?></span>
+							</div>
+							<div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
+								<label>Confirm Password</label>
+								<input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
+								<span class="help-block"><?php echo $confirm_password_err; ?></span>
+							</div>
+							<div class="form-group">
+								<input type="submit" class="btn btn-primary" value="Submit">
+								<input type="reset" class="btn btn-default" value="Reset">
+							</div>
+							<p>Already have an account? <a href="login.php">Login here</a>.</p>
+						</form>
+					</div>
+		</div>
 
 	
 	
@@ -175,11 +204,20 @@
 			<div class="next" onclick="nxt3()">Next</div>
 		</div>
 	</div>
+	<div class="downloader">
+		<div class="intoMark" onclick="remover()">X</div>
+	<div class="DBox">
+		<div class="h1h">You are just 2 steps away from downloading your website</div>
+		<div class="h2h">Step 1 : Close this instruction box </div>
+		<div class="h2h">Step 2 : Press <span class="h4h">CTRL + S </span></div>
+	</div>
+</div>
 
 	</body>
 	<div class="dark" onclick="dl()">
 	</div>
+	<div class="jss">
 	<script defer src="script.js"></script>
-
+</div>
 </html>
 

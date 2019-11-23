@@ -28,8 +28,23 @@ function dl(){
     document.querySelector('.blue').style.backgroundImage='linear-gradient(50deg,#0d0d0d 0,#000000 100%)'
 }
 function download(e){
-    document.dispatchEvent(new KeyboardEvent('keypress',{key:'s',ctrlKey:true}))
-    console.log("Done")
+  document.querySelector('.downloader').style.display = 'flex';
+}
+
+function remover(e){
+document.querySelector('.downloader').style.display = 'none';
+const colors = document.querySelectorAll('.colorChanger');
+for(col of colors)
+{
+  col.style.display = 'none';
+}
+document.querySelector('.dark').style.display='none';
+document.querySelector('.a5').style.display='none';
+document.querySelector('.a4').style.display='none';
+
+
+document.querySelector('.jss').innerHTML=' ';
+
 }
 
 
@@ -87,6 +102,14 @@ function dragElement(elmnt) {
   }
 }
 
+var tutorialCookie = document.cookie;
+if(tutorialCookie.includes("tutorial=done")){
+  console.log(tutorialCookie);
+  document.querySelector('.tutorial').style.display='none';
+}
+
+
+
 function nxt1(){
   butn=document.querySelector('.tt1')
   butn.style.display='none';
@@ -106,5 +129,9 @@ function nxt3(){
   butn.style.display='none';
   butn=document.querySelector('.tutorial')
   butn.style.display='none';
-  console.log("Done")
+  console.log("Done");
+  var d = new Date();
+    d.setTime(d.getTime() + (30*24*60*60*1000));
+document.cookie = "tutorial=done; expires=" + d.toUTCString();
 }
+
