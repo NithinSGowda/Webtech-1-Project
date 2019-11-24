@@ -1,3 +1,12 @@
+var cookie=document.cookie;
+if(cookie.includes("username="))
+{
+  document.querySelector('.loginButton').innerHTML = cookie.substring(cookie.indexOf("username=") + 9);
+  document.querySelector('.loginButton').style.backgroundColor='none';
+}
+
+
+
 const elements=document.querySelectorAll('.et');
 
 for(element of elements){
