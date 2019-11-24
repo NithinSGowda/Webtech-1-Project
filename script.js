@@ -135,3 +135,14 @@ function nxt3(){
 document.cookie = "tutorial=done; expires=" + d.toUTCString();
 }
 
+
+function login(){
+  document.querySelector('.existinglogin').style.display='flex';
+  document.querySelector('.login-form').style.display='none';
+}
+
+
+function register(){
+  document.querySelector('.existinglogin').style.display='none';
+  document.querySelector('.login-form').style.display='flex';
+}

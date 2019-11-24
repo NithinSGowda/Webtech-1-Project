@@ -84,13 +84,12 @@ li{
 }
 
 .b4{
-	background-color: rgba(255, 253, 253, 0.979);
+	background-color: rgba(255, 253, 253, 0);
 	border-radius: 5px;
-	border: none;
+	color: white;
+	border: 1px solid white;
 	padding: 0.6em 4em 0.6em 4em;
 	vertical-align: top;
-	border: 1px solid white;
-	margin-right: 7px; 
 	font-size: 1.1em;
 	/*transition: 0.2s;*/
 }
@@ -499,7 +498,7 @@ input[type="color"]{
 	cursor: hand;
 }
 
-.login-button{
+.login-form{
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -510,4 +509,74 @@ input[type="color"]{
 	top: 0%;
 	color: whitesmoke;
 	line-height: 2em;
+	display: none;
+}
+
+.loginButton{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: yellow;
+	padding: 5px 20px 5px 20px;
+	border-radius: 3px;
+}
+
+.loginButton:hover{
+	cursor: pointer;
+}
+
+.existinglogin{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.904);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0%;
+	color: whitesmoke;
+	line-height: 2em;
+	font-size: 1.2em;
+	display: none;
+}
+
+.existinglogin input, .login-form input{
+	border-radius: 5px;
+	min-height: 30px;
+}
+
+.existinglogin label, .login-form label{
+	font-weight: bold;
+	line-height: 3em;
+}
+
+.existinglogin h2{
+	font-size: 2em;
+}
+
+.existinglogin p{
+	font-size: 0.9em;
+	padding-top: 10px;
+}
+
+.registerOption{
+	color: #313ffd;
+	border-bottom: 1px dotted #2c3aff;
+}
+
+.registerOption:hover{
+	cursor: pointer;
+}
+
+.btn{
+	background-color: rgb(74, 74, 255);
+	color: white;
+	border-radius: 5px;
+	padding: 5px 20px 5px 20px;
+	border: none;
+	margin-right: 2em;
+}
+
+.login-form h2{
+	font-size: 2em;
 }
